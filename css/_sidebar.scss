@@ -1,0 +1,44 @@
+.sidebar{
+    grid-area: sidebar;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    #logo{
+      font-size: 30px;
+      font-weight: 800;
+      text-decoration: underline;
+      color: $logo-color;
+      margin: 10px auto;
+    }
+  
+    .explore{
+      margin: 0 auto 300px auto;
+      font-size: 20px;
+    }
+  
+    .section{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 3px;
+      padding: 3px 10px;
+    }
+  
+    .section:hover{
+      cursor: pointer;
+      background-color: $gray-color;
+      border-radius: 20px;
+    }
+  
+    #help{
+      margin: 20px auto ;
+    }
+  
+    #help:hover{
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  }

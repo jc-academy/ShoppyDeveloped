@@ -1,0 +1,72 @@
+.product-sales{
+    grid-area: sales;
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "horizontal-1 horizontal-1 vertical-1 vertical-2"
+    "horizontal-2 horizontal-2 vertical-1 vertical-2";
+
+
+    .horizontal-1, .vertical-1, .vertical-2{
+      border-radius: 20px;
+      margin: 0 10px 10px 10px;
+    }
+
+    .horizontal-1{
+      grid-area: horizontal-1;
+  
+      background: url("/images/horizontal-1.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .horizontal-1:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  
+    .horizontal-2{
+      grid-area: horizontal-2;
+      margin: 10px;
+      border-radius: 20px;
+  
+      background: url("/images/horizontal-2.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .horizontal-2:hover{
+      margin: 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  
+    .vertical-1{
+      grid-area: vertical-1;
+  
+      background: url("/images/vertical-1.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .vertical-1:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  
+    .vertical-2{
+      grid-area: vertical-2;
+  
+      background: url("/images/horizontal-2.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .vertical-2:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  }

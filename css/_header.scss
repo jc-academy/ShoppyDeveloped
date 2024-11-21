@@ -1,0 +1,70 @@
+.header{
+    grid-area: header;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+   
+  
+    .gender{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+  
+      .women, .men{
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        margin: 0 10px;
+        background-color: $gray-color;
+        border-radius: 15px;
+      }
+  
+      .men{
+        padding: 10px 30px
+      }
+  
+      .women:hover{
+        color: white;
+        background-color: $pink-color;
+        cursor: pointer;
+      }
+  
+      .men:hover{
+        color: white;
+        background-color: $blue-color;
+        cursor: pointer;
+      }
+    }
+  
+    .searchbar{
+      padding: 15px 50px;
+      border: 1px solid $gray-color;
+      border-radius: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      img{
+        width: 20px;
+      }
+  
+      .search{
+        border: none;
+        margin: 0 10px;
+        font-size: 16px;
+        outline: none;
+      }
+    }
+  
+    .right{
+      img{
+        margin: 0 15px;
+      }
+
+      img:hover{
+        cursor: pointer;
+      }
+    }
+  }

@@ -1,0 +1,67 @@
+.product-new{
+    grid-area: new;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "new-1 new-2 new-3 new-4";
+
+
+    .new-1, .new-2, .new-3, .new-4{
+      border-radius: 20px;
+      margin: 0 10px 10px 10px;
+    }
+    .new-1{
+      grid-area: new-1;
+  
+      background: url("/images/bottom-product-1.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .new-1:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  
+    .new-2{
+      grid-area: new-2;
+  
+      background: url("/images/bottom-product-2.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .new-2:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  
+    .new-3{
+      grid-area: new-3;
+
+      background: url("/images/bottom-product-3.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .new-3:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  
+    .new-4{
+      grid-area: new-4;
+  
+      background: url("/images/bottom-product-4.jpg") no-repeat center center;
+      background-size: cover;
+      transition: margin 0.1s ease-in;
+    }
+
+    .new-4:hover{
+      margin: -5px 5px 5px 5px;
+      box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  }
